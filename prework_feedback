@@ -1,0 +1,75 @@
+Hi Tom! 🙋‍♂️ Here I send you some feedback about your prework 😀 
+
+First of all, I want to welcome you to this bootcamp. It is going to be a great experience and challenge. We are looking forward to help you along the way. 
+
+As a general comment, I recommend you to try to do the bonus exercises. What you will learn doing them will be very useful in the next weeks.  
+
+On the following lines I will send you some feedback about the prework exercises, so you can check them and improve your code. 
+
+1 - Snail-and-Well
+
+Instead of creating the variable `Not_scape = True`, you can directly begin the exercise puting the condition `while snail_position <= well_height:`.
+
+Then add one day if the snail doesn't reach the height. 
+
+The next step would be to add one day to the days variable. 
+
+Then add the daily_distance to the snail_position. 
+
+Check again if the snail reached the well_height. 
+
+Finally, if it didn't, substract the nightly distance. 
+
+In this exercise, the right answer is 11 (the snail would advance 10cm each day and on the 11th reach 130cm). 
+
+The Bonus is a similar exercise, but in this case you need to iterate through the list to check how much it advances during the day. 
+
+2 - Duel-of-Sorcerers
+
+All good in this exercise 😀  
+
+3 - Bus
+
+The logic of the second exercise is correct, there is only one thing missing: An empty list called passenger_count (`passenger_count = []`) to append each of the calculations you do in the loop.  
+
+We can see that you know how to use the max() function (which is the opposite of min()) that were required in the bonus of the Duel of Sorcerers. The calculation of the average is correct too.
+
+For wathever reason it shows a maximum occupation of 34 and an average of 19.33, but if you add the empty list it will show the correct results: 14 and 9.333333333333334. 
+
+There is a function to calculate the standard deviation, called statistics that allows you to calculate it using a function. Here I send you some documentation in case you want to check it. 
+
+[geekforgeeks std documentation](https://www.geeksforgeeks.org/python-statistics-stdev/#:~:text=Statistics%20module%20in%20Python%20provides,rather%20than%20an%20entire%20population.&text=It%20is%20used%20to%20quantify,a%20set%20of%20data%20values.) 
+
+4 - Robin-Hood 
+
+In the first exercise, you need to find the coordinates that are repeated in the list. There are five in this case. 
+
+In order to get the coordinates that are repeated, first you can create an empty set with the name you prefer. For example `hit = set(). 
+
+A set is similar tu a dictionary, but it cannot be modified and it doesn't allow duplicate entries. 
+
+Here I send you some documentation about the sets:
+
+[W3 school - set documentation](https://www.w3schools.com/python/python_sets.asp) 
+
+Then a list to store the points that are repeated, for example `arrow_convergence_points = []`. 
+
+Create a loop that iterates through all the coordinates and checks if they are in the set called hit. if they are, add those points to the list (because it means that they are repeated). 
+
+With an else statement, If they points are not in the set, add them.
+
+A a summary, the set can be used to store the unique points, and if any is repeated it will go to the list. 
+
+5 - Temperature-Processor
+
+Everything correct in this one 😀  
+
+6 - Rock-Paper-Scissors
+
+Please, try to do this exercise. It is very important to complete the tasks, as what you will learn from them will be applied during the bootcamp. 
+
+Do not hesitate to write with concrete questions or if you really get stuck with anything.  
+
+Congratulations on what you have learned so far, and keep up the good work. From now on enjoy this bootcamp and learn as much as possible 🚀 
+
+<img width=1000 src="./meme_prework.png">
